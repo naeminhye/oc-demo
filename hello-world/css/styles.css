@@ -7,3 +7,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.text {
+  color: #e85c66;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}

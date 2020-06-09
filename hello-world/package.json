@@ -6,7 +6,6 @@
     "files": {
       "data": "server.js",
       "static": [
-        "img",
         "css"
       ],
       "template": {
