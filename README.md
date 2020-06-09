@@ -21,7 +21,7 @@ To see how the component looks like when consuming it:
 oc preview http://localhost:3030/<your-component-name>
 ```
 
-**Do not use VSCode** to run the following command line:
+**Do not use VSCode** and run the following command line to view consuming components:
 
 ```sh
 python -m http.server 8000
