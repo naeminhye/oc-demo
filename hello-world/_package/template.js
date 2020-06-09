@@ -1,4 +1,4 @@
-var oc=oc||{};oc.components=oc.components||{};oc.components['1f3af1797d7dd9a0653a9557adc15b02e1f9c683']=function(model){
+var oc=oc||{};oc.components=oc.components||{};oc.components['cade0fd26d4e85087e204cd1e121ceb8fec4189a']=function(model){
   var template = /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -106,7 +106,7 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"awesome\":\"o
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/styles.css */ \"./hello-world/css/styles.css\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (_ref) {\n  var name = _ref.name,\n      staticPath = _ref.staticPath;\n  return '<div class=' + _css_styles_css__WEBPACK_IMPORTED_MODULE_0___default.a.awesome + '>\\n    <img src=\"' + staticPath + 'img/logo.png\" />\\n    Hello ' + name + '!\\n  </div>';\n});\n\n//# sourceURL=webpack:///./hello-world/view.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/styles.css */ \"./hello-world/css/styles.css\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (_ref) {\n  var name = _ref.name,\n      staticPath = _ref.staticPath;\n  return '<div class=' + _css_styles_css__WEBPACK_IMPORTED_MODULE_0___default.a.awesome + '>\\n    <img src=\"' + staticPath + 'hello.gif\" />\\n  </div>';\n});\n\n//# sourceURL=webpack:///./hello-world/view.js?");
 
 /***/ })
 

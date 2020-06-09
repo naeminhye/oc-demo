@@ -12,13 +12,13 @@ oc
 
 ```sh
 npm install oc -g
-oc dev . <port>
+oc dev . 3030
 ```
 
 To see how the component looks like when consuming it:
 
 ```sh
-oc preview http://localhost:<port>/<your-component-name>
+oc preview http://localhost:3030/<your-component-name>
 ```
 
 **Do not use VSCode** to run the following command line:
