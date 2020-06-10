@@ -11,7 +11,6 @@ oc
 ## Get Started
 
 ```sh
-npm install oc -g
 oc dev . 3030
 ```
 
@@ -21,11 +20,41 @@ To see how the component looks like when consuming it:
 oc preview http://localhost:3030/<your-component-name>
 ```
 
-**Do not use VSCode** and run the following command line to view consuming components:
+## Run index.html
+
+1. Use Python3
+   **Do not use VSCode** and run the following command line to view consuming components:
 
 ```sh
 python -m http.server 8000
 ```
+
+2. Use Node.js
+
+Install Node js - https://nodejs.org/en/
+
+Go to folder where you have html file:
+
+In CMD, run the command to install http server:
+
+```sh
+npm install http-server -g
+```
+
+To load file in the browser run: `http-server`
+If you have a specific html file. Run following command in CMD:
+
+```sh
+http-server <fileName.html> -p <port>
+```
+
+by default port is 8080
+
+Note : To run your .js file run:
+``sh
+node <fileName.js>
+
+````
 
 ## Initialize a component
 
@@ -33,7 +62,7 @@ Initialize a component with a template and follow the CLI instructions:
 
 ```sh
 $ oc init <your-component-name> <template>
-```
+````
 
 Here are some templates you can use:
 
